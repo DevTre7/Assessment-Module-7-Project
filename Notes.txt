@@ -1,0 +1,26 @@
+Notes created by me (starting from step 2 of part 1):
+The current runtime for the default "insert" and "append" function is 
+    "Results for the extraLargeArray
+    insert 770.923417 ms    
+    append 2.305875 ms"
+
+ 
+Results for the LargeArray
+insert 6.502959 ms
+append 414.584 μs
+
+Results for the mediumArray
+insert 127.167 μs
+append 95.333 μs
+
+Results for the smallArray
+insert 23.25 μs
+append 53.959 μs
+
+Results for the tinyArray
+insert 16.666 μs
+append 53.125 μs
+
+
+Explaination Paragraph:
+    When it comes to each Array, the more trailing zeros it has as it's more time it takes to both funtions to loop th

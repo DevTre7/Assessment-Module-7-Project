@@ -45,6 +45,7 @@ const extraLargeArray = getSizedArray(100000);
 // How long does it take to double every number in a given 
 // array? 
 
+
 // Try it with first function
 perf.start();                     // Starts timer
 doublerAppend(extraLargeArray);
@@ -60,3 +61,8 @@ let resultsInsert = perf.stop();
 console.log('Results for the extraLargeArray');
 console.log("insert", resultsInsert.preciseWords);
 console.log("append", resultsAppend.preciseWords);
+console.log('--------------------------------------------');
+
+
+
+
